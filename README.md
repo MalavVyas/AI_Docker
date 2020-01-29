@@ -33,3 +33,11 @@ ID=debian
 - kaldi-io
 - espnet
 - cupy
+
+####Build the dokcer image with this command while in the folder containing Dockerfile
+>
+docker build -t image1:final .
+
+####Run the image with this command
+>
+docker run -it image1
