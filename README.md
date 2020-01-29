@@ -34,7 +34,7 @@ ID=debian
 - espnet
 - cupy
 
-####Build the dokcer image with this command while in the folder containing Dockerfile
+####Build the docker image with this command while in the folder containing Dockerfile
 >
 docker build -t image1:final .
 
